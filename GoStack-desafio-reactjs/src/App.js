@@ -39,32 +39,34 @@ function App() {
 
   return (
     <div>
-      <ul data-testid="repository-list">
-  
-          {repositories.map(repository => (
-
-            <li key={repository.id}>{repository.title}
-             <button onClick={() => handleRemoveRepository(repository.id)}>Remover</button>
-            </li>
-          ))}        
-
-        
-      </ul>
-
-      <input 
-      type="text"
-      value={title} 
-      placeholder="Titulo"
-      onChange={e => setTitle(e.target.value)}       
-      />
-      <input 
-      type="text"
-      value={adress}
-      placeholder="Endereço"
-      onChange={e => setAdress(e.target.value)}
-      />
-      <button onClick={() => handleAddRepository()}>Adicionar</button>
-
+      <div className="form-container">
+        <div className="input-container">
+          <input 
+          type="text"
+          value={title} 
+          placeholder="Titulo"
+          onChange={e => setTitle(e.target.value)}       
+          />
+          <input 
+          type="text"
+          value={adress}
+          placeholder="Endereço"
+          onChange={e => setAdress(e.target.value)}
+          />
+        </div>
+        <button class="input-button" onClick={() => handleAddRepository()}>Adicionar</button>
+      </div>
+        <ul data-testid="repository-list">  
+            {repositories.map(repository => (
+              <div className="repo-container">
+                <li key={repository.id}>
+                  <p>{repository.title}</p>
+                  <button onClick={() => handleRemoveRepository(repository.id)}>Remover</button>
+                </li>
+              </div>
+            ))}           
+        </ul>
+      
     </div>
   );
 }
