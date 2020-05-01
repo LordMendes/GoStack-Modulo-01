@@ -28,11 +28,11 @@
 ### Instalação | Install
 
 #### - Backend
-Esse projeto requer [Yarn](https://yarnpkg.com/) para rodar.
-This project requires [Yarn](https://yarnpkg.com/) do run
+[PT-BR] Esse projeto requer [Yarn](https://yarnpkg.com/) para rodar.
+[ENG]This project requires [Yarn](https://yarnpkg.com/) do run
 
-Instale as dependencias e as dependecias de desenvolvemento e rode o servidor.
-Install the dependences and devDependences and run the server.
+[PT-BR] Instale as dependencias e as dependecias de desenvolvemento e rode o servidor.
+[ENG] Install the dependences and devDependences and run the server.
 
 ```sh
 $ yarn install 
@@ -40,11 +40,11 @@ $ yarn dev
 ```
 
 #### - Frontend Web
-Esse projeto requer [Yarn](https://yarnpkg.com/) para rodar.
-This project requires [Yarn](https://yarnpkg.com/) do run
+[PT-BR] Esse projeto requer [Yarn](https://yarnpkg.com/) para rodar.
+[ENG] This project requires [Yarn](https://yarnpkg.com/) do run
 
-Instale as dependencias e as dependecias de desenvolvemento e rode o servidor.
-Install the dependences and devDependences and run the server.
+[PT-BR] Instale as dependencias e as dependecias de desenvolvemento e rode o servidor.
+[ENG] Install the dependences and devDependences and run the server.
 
 ```sh
 $ yarn install 
@@ -53,15 +53,16 @@ $ yarn start
 
 #### - Frontend Mobile
 
-Esse projeto requer [Yarn](https://yarnpkg.com/) para rodar.
-This project requires [Yarn](https://yarnpkg.com/) do run
+[PT-BR] Esse projeto requer [Yarn](https://yarnpkg.com/) para rodar.
+[ENG] This project requires [Yarn](https://yarnpkg.com/) do run
 
-Instale as dependencias e as dependecias de desenvolvemento e rode o servidor.
-Install the dependences and devDependences and run the server.
+[PT-BR] Instale as dependencias e as dependecias de desenvolvemento e rode o servidor.
+[ENG] Install the dependences and devDependences and run the server.
 
 ```sh
 $ yarn install 
 $ yarn android
 ```
 
-Desenvolvido por [Lucas C. Mendes](https://github.com/LordMendes) durante as aulas do GoStack.
+[PT-BR] Desenvolvido por [Lucas C. Mendes](https://github.com/LordMendes) como parte do GoStack.
+[ENG] Developed by [Lucas C. Mendes](https://github.com/LordMendes) as part of GoStack 11.
